@@ -1,0 +1,160 @@
+/* universal styling */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Index file styling */
+
+/* Nav Bar styling */
+#nav-bar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+#logo img{
+    width: 150px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    list-style-type: none;
+}
+
+ul li{
+    padding-left: 50px;
+}
+
+ul li a{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: tomato;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+#nav-bar h1{
+    padding-top: 30px;
+}
+
+/* Body Styling */
+
+.h-heading{
+    text-align: center;
+    font-size: 50px;
+}
+
+.h-heading:hover{
+    color: red;
+}
+
+#t-heading{
+    text-align: center;
+    font-size: 40px;
+}
+
+#locations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#locations .box{
+    width: 100%;
+    border: 3px solid brown;
+    margin: 4px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 3px;
+    background-color: rgb(234, 232, 229);
+}
+
+#locations .box img{
+    width: 350px;
+    height: 300px;
+}
+
+
+#locations .box img:hover{
+    border-radius: 50%;
+    
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+
+.navigation-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 80%;
+    height: 200px;
+    border-radius: 5px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+.navigation-buttons h1{
+    color: white;
+    font-size: 35px;
+}
+.navigation-buttons button{
+    font-size: 25px;
+    margin: 20px;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: tomato;
+    color: white;
+}
+
+.navigation-buttons button:hover{
+    background-color: black;
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Footer styling */
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+footer .f-style{
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+footer .f-style a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 6PX;
+}
+
+footer .f-style a:hover{
+    color: yellow;
+}
